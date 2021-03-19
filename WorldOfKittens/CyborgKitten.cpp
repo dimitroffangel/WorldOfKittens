@@ -1,6 +1,6 @@
 #include "CyborgKitten.h"
 
-CyborgKitten* CyborgKitten::Replicate()
+CyborgKitten* CyborgKitten::Replicate() const
 {
 	std::cout << "Replicating a cyborg kitten..." << '\n';
 	

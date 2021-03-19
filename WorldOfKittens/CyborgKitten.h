@@ -6,6 +6,6 @@
 class CyborgKitten : public Kitten
 {
 public:
-	CyborgKitten* Replicate();
+	CyborgKitten* Replicate() const;
 };
 

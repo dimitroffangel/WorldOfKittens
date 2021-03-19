@@ -1,14 +1,22 @@
-﻿Build started 3/11/2021 5:02:37 PM.
+﻿Build started 3/18/2021 5:49:59 PM.
      1>Project "F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\WorldOfKittens.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\WorldOfKittens.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt CyborgKitten.cpp Main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Colony.cpp CyborgKitten.cpp ExplodingKitten.cpp Kitten.cpp Main.cpp
+         Colony.cpp
+     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Colony.cpp(10,20): warning C4018:  '<': signed/unsigned mismatch
+     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Colony.cpp(66,10): warning C4018:  '<': signed/unsigned mismatch
          CyborgKitten.cpp
+         ExplodingKitten.cpp
+         Kitten.cpp
          Main.cpp
          Generating Code...
+     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Colony.cpp(100,20): warning C4018:  '<': signed/unsigned mismatch
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.lib" /MACHINE:X86 Debug\CyborgKitten.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.lib" /MACHINE:X86 Debug\Colony.obj
+         Debug\CyborgKitten.obj
+         Debug\ExplodingKitten.obj
          Debug\Kitten.obj
          Debug\Main.obj
          WorldOfKittens.vcxproj -> F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.exe
@@ -18,7 +26,14 @@
      1>Done Building Project "F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\WorldOfKittens.vcxproj" (Build target(s)).
 
 Build succeeded.
-    0 Warning(s)
+
+       "F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\WorldOfKittens.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Colony.cpp(10,20): warning C4018:  '<': signed/unsigned mismatch
+         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Colony.cpp(66,10): warning C4018:  '<': signed/unsigned mismatch
+         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Colony.cpp(100,20): warning C4018:  '<': signed/unsigned mismatch
+
+    3 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.82
+Time Elapsed 00:00:03.74

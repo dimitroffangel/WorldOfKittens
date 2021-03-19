@@ -123,12 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Colony.cpp" />
     <ClCompile Include="CyborgKitten.cpp" />
+    <ClCompile Include="ExplodingKitten.cpp" />
     <ClCompile Include="Kitten.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Colony.h" />
     <ClInclude Include="CyborgKitten.h" />
+    <ClInclude Include="ExplodingKitten.h" />
     <ClInclude Include="Kitten.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

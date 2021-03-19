@@ -19,6 +19,17 @@ enum KittenColour
 	NonDefinedColour
 };
 
+struct Position
+{
+	int x;
+	int y;
+
+	int GetLengthSquared() const
+	{
+		return x * x + y * y;
+	}
+};
+
 class Kitten
 {
 private:
@@ -60,20 +71,20 @@ public:
 		std::cout << "Kitten was destructed" << '\n';
 	}
 
-	void Print();
+	void Print() const;
 	void GrowOlder();
 
 	void SetName(const std::string&);
-	std::string GetName();
+	std::string GetName() const;
 
 	void SetAge(int age);
-	int GetAge();
+	int GetAge() const;
 
 	void SetType(KittenType type);
-	KittenType GetType();
+	KittenType GetType() const;
 
 
 	void SetColour(KittenColour colour);
-	KittenColour GetColour();
+	KittenColour GetColour() const;
 };
 

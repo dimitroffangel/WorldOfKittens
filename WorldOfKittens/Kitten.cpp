@@ -9,7 +9,7 @@ Kitten::Kitten(const std::string& name, int age, KittenType type, KittenColour c
 	this->Colour = colour;
 }
 
-void Kitten::Print()
+void Kitten::Print() const
 {
 	std::cout << "Kitten name is " << this->Name
 		<< " Age is " << this->Age
@@ -27,7 +27,7 @@ void Kitten::SetAge(int age)
 	this->Age = age;
 }
 
-int Kitten::GetAge()
+int Kitten::GetAge() const
 {
 	return this->Age;
 }
@@ -37,7 +37,7 @@ void Kitten::SetType(KittenType type)
 	this->Type = type;
 }
 
-KittenType Kitten::GetType()
+KittenType Kitten::GetType() const
 {
 	return this->Type;
 }
@@ -47,7 +47,7 @@ void Kitten::SetColour(KittenColour colour)
 	this->Colour = colour;
 }
 
-KittenColour Kitten::GetColour()
+KittenColour Kitten::GetColour() const
 {
 	return this->Colour;
 }
@@ -57,7 +57,7 @@ void Kitten::SetName(const std::string& name)
 	this->Name = name;
 }
 
-std::string Kitten::GetName()
+std::string Kitten::GetName() const
 {
 	return this->Name;
 }

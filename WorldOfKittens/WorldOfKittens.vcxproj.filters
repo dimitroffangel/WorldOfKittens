@@ -24,12 +24,24 @@
     <ClCompile Include="CyborgKitten.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Colony.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodingKitten.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kitten.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CyborgKitten.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colony.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodingKitten.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
