@@ -123,17 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CareTaker.cpp" />
     <ClCompile Include="Colony.cpp" />
+    <ClCompile Include="ComapanyOfCareTakers.cpp" />
     <ClCompile Include="CyborgKitten.cpp" />
     <ClCompile Include="ExplodingKitten.cpp" />
     <ClCompile Include="Kitten.cpp" />
+    <ClCompile Include="KittenCareTaker.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CareTaker.h" />
     <ClInclude Include="Colony.h" />
+    <ClInclude Include="ComapanyOfCareTakers.h" />
     <ClInclude Include="CyborgKitten.h" />
     <ClInclude Include="ExplodingKitten.h" />
     <ClInclude Include="Kitten.h" />
+    <ClInclude Include="KittenCareTaker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

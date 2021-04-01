@@ -5,16 +5,32 @@
 #include "ExplodingKitten.h"
 #include "Colony.h"
 
+#include "KittenCareTaker.h"
+
 int main()
 {
+	const int SizeOfListOfKittens = 2;
+	Kitten listOfKittens[SizeOfListOfKittens];
+
+	Kitten* dynamicListOFKittens = new Kitten[SizeOfListOfKittens];
+
+	Kitten* pointerKitten;
+
+	KittenCareTaker newKittenTaker;
+	
+	KittenCareTaker coolerKittenCareTaker = newKittenTaker;
+
+	KittenCareTaker thirdKittenCareTaker;
+
+	thirdKittenCareTaker = thirdKittenCareTaker;
+
+	return 0;
+
 	Position fooPosition{ 5, 6 };
 	fooPosition.x = 5;
 	fooPosition.y = 6;
 
 	std::cout << fooPosition.x << " " << fooPosition.y << " " << fooPosition.GetLengthSquared() << "\n";
- 
-
-	return 0;
 
 	Kitten simpleKitten;
 	simpleKitten.SetAge(42);

@@ -30,6 +30,15 @@
     <ClCompile Include="ExplodingKitten.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KittenCareTaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CareTaker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComapanyOfCareTakers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kitten.h">
@@ -42,6 +51,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ExplodingKitten.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KittenCareTaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CareTaker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComapanyOfCareTakers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
