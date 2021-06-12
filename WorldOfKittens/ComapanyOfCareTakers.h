@@ -6,10 +6,10 @@ class CompanyOfCareTakers
 {
 private:
 	KittenCareTaker* ListOfCareTakers;
-	int CapacityOfList;
-	int CurrentSizeOfList;
+	int CapacityOfList = 0;
+	int CurrentSizeOfList = 0;
 
-public:
+private:
 	CompanyOfCareTakers()
 	{
 		this->ListOfCareTakers = nullptr;
@@ -21,7 +21,6 @@ public:
 	{
 		// for ->
 	}
-
 	~CompanyOfCareTakers()
 	{
 		// delete all objects
@@ -29,6 +28,7 @@ public:
 	
 	// ? operator=
 
+public:
 	void CreateKittenCareTaker(const std::string& name)
 	{
 		//KittenCareTaker* newKittenCareTaker = new KittenCareTaker();
@@ -51,7 +51,7 @@ public:
 			this->CapacityOfList *= 2;
 			this->CurrentSizeOfList = this->CurrentSizeOfList * 2 + 1;
 
-			this->ListOfCareTakers[this->CurrentSizeOfList] = KittenCareTaker();
+			this->ListOfCareTakers[this->CurrentSizeOfList] = KittenCareTaker(name);
 		}
 	}
 };

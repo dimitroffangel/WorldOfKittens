@@ -18,6 +18,15 @@ public:
 		this->NumberOfCareTakers = new int(1);
 	}
 
+	KittenCareTaker(const std::string& name)
+	{
+		this->KittenTakingCareOf = new Kitten(name);
+		/*
+			added default info
+		*/
+		this->NumberOfCareTakers = new int(1);
+	}
+
 	KittenCareTaker(const KittenCareTaker& other)
 	{
 		this->KittenTakingCareOf = other.KittenTakingCareOf;

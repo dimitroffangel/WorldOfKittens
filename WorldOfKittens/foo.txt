@@ -1,0 +1,21 @@
+Types of c
+kungala
+様様様様様icating kitten
+	zombie kitten 
+	hex kitten
+	mouse kitten
+
+PrintCat
+
+types:
+	name
+	age
+	Colour
+	kittenType
+	
+	
+
+make a struct with a position and something happens near that position
+
+
+

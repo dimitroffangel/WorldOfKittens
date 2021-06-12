@@ -86,5 +86,18 @@ public:
 
 	void SetColour(KittenColour colour);
 	KittenColour GetColour() const;
+
+	Kitten& operator=(const Kitten& rhs)
+	{
+		return *this;
+	}
+
+	void Initialize(const Kitten& other)
+	{
+		this->Name = other.Name;
+		this->Age = other.Age;
+		this->Type = other.Type;
+		this->Colour = other.Colour;
+	}
 };
 
