@@ -1,24 +1,19 @@
-﻿Build started 5/27/2021 2:48:23 AM.
+﻿Build started 6/13/2021 8:53:49 PM.
      1>Project "F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\WorldOfKittens.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\WorldOfKittens.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\WorldOfKittens.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Main.cpp
-         Main.cpp
-     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Spell.h(19,20): warning C4244:  '=': conversion from 'const int' to 'float', possible loss of data
-     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Spell.h(60,35): warning C4244:  'argument': conversion from 'float' to 'const int', possible loss of data
-     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\ComapanyOfCareTakers.h(53,25): warning C4018:  '<': signed/unsigned mismatch
-     1>F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Main.cpp(54,10): warning C4101:  'pointerKitten': unreferenced local variable
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt SingletonExample.cpp
+         SingletonExample.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.lib" /MACHINE:X86 Debug\Colony.obj
          Debug\ComapanyOfCareTakers.obj
          Debug\CyborgKitten.obj
          Debug\ExplodingKitten.obj
-         Debug\Grade.obj
          Debug\Kitten.obj
          Debug\KittenCareTaker.obj
          Debug\Main.obj
-         Debug\Spell.obj
+         Debug\SingletonExample.obj
          WorldOfKittens.vcxproj -> F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Debug\WorldOfKittens.exe
        FinalizeBuildStatus:
          Deleting file "Debug\WorldOfKittens.tlog\unsuccessfulbuild".
@@ -26,15 +21,7 @@
      1>Done Building Project "F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\WorldOfKittens.vcxproj" (Build target(s)).
 
 Build succeeded.
-
-       "F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\WorldOfKittens.vcxproj" (Build target) (1) ->
-       (ClCompile target) -> 
-         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Spell.h(19,20): warning C4244:  '=': conversion from 'const int' to 'float', possible loss of data
-         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Spell.h(60,35): warning C4244:  'argument': conversion from 'float' to 'const int', possible loss of data
-         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\ComapanyOfCareTakers.h(53,25): warning C4018:  '<': signed/unsigned mismatch
-         F:\Projects\OOP_Teaching\KittensWorld\WorldOfKittens\Main.cpp(54,10): warning C4101:  'pointerKitten': unreferenced local variable
-
-    4 Warning(s)
+    0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.07
+Time Elapsed 00:00:00.79

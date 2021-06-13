@@ -1,6 +1,7 @@
 #pragma once
 #include "Kitten.h"
-
+#include "CyborgKitten.h"
+#include "ExplodingKitten.h"
 
 class KittenCareTaker
 {
@@ -9,6 +10,27 @@ public:
 	Kitten* KittenTakingCareOf;
 
 public:
+
+	Kitten* CreateKitten(const KittenType kittenType)
+	{
+		if (kittenType == KittenType::CyborgKittenType)
+		{
+			return new CyborgKitten();
+		}
+
+		else if (kittenType == KittenType::ExplodingKittenType)
+		{
+			return new ExplodingKitten();
+		}
+	}
+
+	/*
+		CreateKitten(const KittenType kittenType)
+		{
+			
+		}
+	*/
+
 	KittenCareTaker()
 	{
 		this->KittenTakingCareOf = new Kitten();

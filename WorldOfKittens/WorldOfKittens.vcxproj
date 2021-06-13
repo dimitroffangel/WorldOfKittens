@@ -130,6 +130,7 @@
     <ClCompile Include="Kitten.cpp" />
     <ClCompile Include="KittenCareTaker.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SingletonExample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Colony.h" />
@@ -138,6 +139,7 @@
     <ClInclude Include="ExplodingKitten.h" />
     <ClInclude Include="Kitten.h" />
     <ClInclude Include="KittenCareTaker.h" />
+    <ClInclude Include="SingletonExample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

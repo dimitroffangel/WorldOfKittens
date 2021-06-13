@@ -66,7 +66,7 @@ public:
 		this->Colour = other.Colour;
 	}
 
-	~Kitten()
+	virtual ~Kitten()
 	{
 		std::cout << "Kitten was destructed" << '\n';
 	}

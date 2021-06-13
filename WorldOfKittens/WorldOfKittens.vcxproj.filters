@@ -36,6 +36,9 @@
     <ClCompile Include="ComapanyOfCareTakers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SingletonExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kitten.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ComapanyOfCareTakers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

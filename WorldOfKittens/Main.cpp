@@ -6,9 +6,13 @@
 #include "Colony.h"
 
 #include "KittenCareTaker.h"
+#include "SingletonExample.h"
 
 int main()
 {
+	SingletonExample::GetInstance()->Print();
+
+
 	const int SizeOfListOfKittens = 2;
 	Kitten listOfKittens[SizeOfListOfKittens];
 
@@ -17,7 +21,13 @@ int main()
 	Kitten* pointerKitten;
 
 	KittenCareTaker newKittenTaker;
-	
+
+	{
+		Kitten* newKitty = newKittenTaker.CreateKitten(KittenType::CyborgKittenType);
+			
+		delete newKitty;
+	}
+
 	KittenCareTaker coolerKittenCareTaker = newKittenTaker;
 
 	KittenCareTaker thirdKittenCareTaker;
